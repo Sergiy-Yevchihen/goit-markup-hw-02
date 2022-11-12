@@ -1,0 +1,206 @@
+/* основний колір тексту color: #212121;
+ */
+ /* не основний колір тексту color: #757575; */
+ /* колір тексту в шапці color: #FFFFFF; */
+ /* колір фону background: #F5F5F5; */
+ /* колір ефекту color: #2196F3;
+ */
+ /* колір фону хедер і футер background: #2F303A; */
+ /* боді */
+
+  :root {
+    --primary-text-color:#757575;
+    --titl-text-color:#212121;
+    --fon-section-color:#2F303A;
+    --accent-color:#2196F3;
+    --bt-accent-color:#188CE8;
+    --futer-text-color:#FFFFFF;
+    --fon-body-color:#FFFFFF;
+    --tem-fon-color:#F5F4FA;
+    --hero-fon-color:#F5F5F5;
+    --futer-link-color:rgba(255, 255, 255, 0.6);
+    --box-shadow-color:0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    --button-title-color: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+ body {
+    font-family: "Roboto","Raleway", Arial, Helvetica, sans-serif;
+    background-color: var(--fon-body-color);   
+    color: var(--primary-text-color);
+    
+  }
+ .link {
+    text-decoration: none;
+    font-style: normal;
+  }
+   /* logo */
+  
+   .header-logo.link {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--titl-text-color);
+  }
+  span {
+    color: var(--accent-color);
+  }
+  /* хедер */
+  .header-link .link {
+    font-weight: 500;
+    font-size: 14px;
+   line-height: 1.33;
+   
+  }
+  .list
+   {
+    list-style: none;
+  }
+  .site-nav .link.current {
+    color:var(--accent-color) ;
+  }
+  /* site nav */
+  .site-nav .link {
+    color: var(--titl-text-color);
+  }
+
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color: var(--accent-color);
+  }
+
+  .aute-nav .link {
+    color: var(--primary-text-color);
+  }
+  .aute-nav .link:hover,
+  .aute-nav .link:focus {
+   color: var(--accent-color);
+  }
+ 
+  /* hero */
+  .hero {
+    background: var(--fon-section-color);
+  }
+  .title-hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    color: var(--futer-text-color);
+  }
+   .hero .button
+  {
+    border: none;
+   font-family: inherit;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   cursor: pointer;
+   background: var(--accent-color);
+   box-shadow:var(--button-title-color);
+   border-radius: 4px;
+   color: var(--fon-body-color);
+  }
+  .button:hover,
+  .button:focus  {
+    background: var(--bt-accent-color);
+    
+    color: white;
+  }
+  /* buton in portfolio */
+  .button.listt {
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;    
+    color: var(--titl-text-color);
+    background: var(--tem-fon-color);
+    border-radius: 4px;
+
+  }
+  .button.listt:hover,
+  .button.listt:focus {
+    background: var(--accent-color);
+    box-shadow: var(--box-shadow-color);
+    border-radius: 4px;
+  }
+  /* особливості */
+  .feature-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .section .link {
+    background-color: var(--hero-fon-color);
+    
+  }
+  .team-title,
+  .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--titl-text-color);    
+  }
+  .title { 
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--titl-text-color);
+  }
+ .pro-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+ }
+/* team */
+ .team {
+    background-color: var(--tem-fon-color);
+  }
+  
+  /* footer */
+  .aside {
+    background-color: var(--fon-section-color);
+  }
+  .aside-logo.link {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--futer-text-color);
+  }
+  .studio {
+    color: var(--futer-text-color);
+  }
+  .aside-text {
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;      
+    color: var(--futer-text-color);
+  }
+  .begin-nav .link {
+    color: var(--futer-text-color);
+  }
+  .begin-nav .link:hover,
+  .begin-nav .link:focus {
+    color: var(--accent-color);
+  }
+  .begin-nav .link {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;    
+    color: var(--futer-link-color);
+
+  }
+  
