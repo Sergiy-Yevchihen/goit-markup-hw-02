@@ -6,100 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styls.css">
 </head>
 <body class="body">
-    <!--шапка-->
-    <header class="header">
-     <nav class="header-nav">
-         <a href="" class="header-logo link"><span>Web</span>Studio</a>
-            <ul class="site-nav list">
-                <li><a href="./index.html" class="header-link link current">Студія</a></li>
-                <li><a href="./portfolio.html" class="header-link link">Портфоліо</a></li>
-                <li><a href="" class="header-link link">Контакти</a></li>
-            </ul>
-      </nav>
-            <ul class="aute-nav list">
-                <li><a href="mailto:info@devstudio.com" class="header-link link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="header-link link">+38 096 111 11 11</a></li>
-            </ul>
-    </header>
-    <main>
-        <!-- hero -->
+    <!--шапка-->    
+ <header class="header line ">
+     <div class="contarner menu-nav">
+          <nav class="header-nav">
+                <a href="" class="header-logo link"><span>Web</span>Studio</a>
+                <ul class="site-nav list">
+                    <li class="item"><a href="./index.html" class="header-link link current">Студія</a></li>
+                    <li class="item"><a href="./portfolio.html" class="header-link link">Портфоліо</a></li>
+                    <li class="item"><a href="" class="header-link link">Контакти</a></li>
+                </ul>
+          </nav>
+          <div class="cont-nav">
+                <ul class="aute-nav list">
+                    <li class="item"><a href="mailto:info@devstudio.com" class="header-link link">info@devstudio.com</a></li>
+                    <li class="item"><a href="tel:+380961111111" class="header-link link">+38 096 111 11 11</a></li>
+                </ul> 
+         </div>       
+      </div> 
+ </header>
+ <main>
+      <!-- hero -->  
      <section class="hero">
-         <h1 class="title-hero">Ефективні рішення для вашого бізнису</h1>
-         <button type=button class="button">Замовити послугу</button>
-      </section>
-     <!--особливості-->
-     <section class="section">
-           <h2 class="feature-title">Особливості</h2> 
-         <ul class="cection list">
-             <li>
-                 <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                 <p class="pro-title">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-             </li>
-             <li>
-                 <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                 <p class="pro-title">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-             </li>
-             <li>
-                 <h3 class="title">ПЛАНУВАННЯ</h3>
-                 <p class="pro-title">Так само консультація з широким активом значною мірою зумовлює.</p>
-             </li>
-              <li>
-                  <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                  <p class="pro-title">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-             </li>   
-         </ul>
+          <div class="contarner">    
+                <h1 class="title-hero">Ефективні рішення для вашого бізнису</h1>
+                <button type=button class="button">Замовити послугу</button>
+            </div>  
+     </section>    
+        <!--особливості-->
+     <section class="sectio-main">        
+               <h2 class="feature-title">Особливості</h2>
+            <div class="contarner">
+             <ul class="cection list">
+                 <li class="section-wrap">
+                     <h3 class="title-main">УВАГА ДО ДЕТАЛЕЙ</h3>
+                     <p class="pro-title">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                 </li>
+                 <li class="section-wrap">
+                     <h3 class="title-main">ПУНКТУАЛЬНІСТЬ</h3>
+                     <p class="pro-title">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                 </li>
+                 <li class="section-wrap">
+                     <h3 class="title-main">ПЛАНУВАННЯ</h3>
+                     <p class="pro-title">Так само консультація з широким активом значною мірою зумовлює.</p>
+                 </li>
+                  <li class="section-wrap">
+                      <h3 class="title-main">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                      <p class="pro-title">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                 </li>   
+             </ul>
+         </div>
       </section> 
         <!--чим ми займаємось--> 
-     <section class="section">
-         <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list">     
-             <li><img src="./images/img_5.jpg" alt="foto" width="370"></li>
-             <li><img src="./images/img_6.jpg" alt="foto" width="370"></li>
-             <li><img src="./images/img_7.jpg" alt="foto" width="370"></li>             
-         </ul>   
+     <section class="section-foto">
+          <div class="contarner">
+             <h2 class="section-title">Чим ми займаємося</h2>
+             <ul class="list-ebayt list">     
+                 <li class="ebayt-foto"><img src="./images/img_5.jpg" alt="foto" width="370"></li>
+                 <li class="ebayt-foto"><img src="./images/img_6.jpg" alt="foto" width="370"></li>
+                 <li class="ebayt-foto"><img src="./images/img_7.jpg" alt="foto" width="370"></li>             
+              </ul>
+            </div>      
      </section>
         <!--наша команда-->
      <section class="team">
-         <h2 class="team-title">Наша команда</h2>
-         <ul class="list">
-             <li>
-                 <img src="./images/img_4.jpg" alt="foto" width="370">
-                 <h3 class="title">Ігор Демяненко</h3>
-                 <p lang="en" class="pro-title">Product Designer</p>
-             </li>
-             <li>
-                 <img src="./images/img_1.jpg " alt="foto" width="370">
-                 <h3 class="title">Ольга Рєпіна</h3>
-                 <p lang="en" class="pro-title">Frontend Developer</p>
-             </li>
-             <li>
-                 <img src="./images/img_2.jpg " alt="foto" width="370">
-                 <h3 class="title">Микола Тарасов</h3>
-                 <p lang="en" class="pro-title">Marketing</p>
-             </li>   
-             <li>
-                 <img src="./images/img_3.jpg " alt="foto" width="370">
-                 <h3 class="title">Михайло Єрмаков</h3>
-                 <p lang="en" class="pro-title">UI Designer</p>
-             </li> 
-         </ul>   
+         <div class="contarner">
+               <h2 class="team-title">Наша команда</h2>   
+               <ul class="team-list list">
+                  <li class="team-cart">
+                      <img src="./images/img_4.jpg" alt="foto" width="270">
+                      <h3 class="title cart">Ігор Демяненко</h3>
+                      <p lang="en" class="pro-title prof">Product Designer</p>
+                  </li>
+                   <li class="team-cart">
+                       <img src="./images/img_1.jpg " alt="foto" width="270">
+                       <h3 class="title cart">Ольга Рєпіна</h3>
+                       <p lang="en" class="pro-title prof">Frontend Developer</p>
+                   </li>
+                   <li class="team-cart">
+                       <img src="./images/img_2.jpg " alt="foto" width="270">
+                       <h3 class="title cart">Микола Тарасов</h3>
+                       <p lang="en" class="pro-title prof">Marketing</p>
+                   </li>   
+                   <li class="team-cart">
+                       <img src="./images/img_3.jpg " alt="foto" width="270">
+                       <h3 class="title cart">Михайло Єрмаков</h3>
+                       <p lang="en" class="pro-title prof">UI Designer</p>
+                   </li> 
+               </ul> 
+            </div>
      </section>
-        <!--футер-->
-     <footer class="aside">
-         <a href="" class="aside-logo link"><span>Web</span><span class="studio">Studio</span></a>
-         <address>  
-             <p lang="uk" class="aside-text ">м. Київ, пр-т Лесі Українки, 26</p> 
-                <ul class="begin-nav list">   
-                    <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="link">+380961111111</a></li>
-                </ul>
-         </address>   
-     </footer>
-   </main> 
+        <!--футер-->    
+        <footer class="aside">
+            <div class="contarner"> 
+                <a href="" class="aside-logo link"><span>Web</span><span class="studio">Studio</span></a>
+                <address class="info"> 
+                    <div class="info-address"> 
+                       <p lang="uk" class="aside-text">м. Київ, пр-т Лесі Українки, 26</p> 
+                       <ul class="begin-nav list">   
+                         <li class="footr-eml"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                         <li class="footer-tel"><a href="tel:+380961111111" class="link">+380961111111</a></li>
+                      </ul>
+                  </div>
+             </address>
+            </div>
+        </footer>
+ </main>
+    
 </body>
 </html>
