@@ -109,17 +109,12 @@
       display: flex;
     }
   
-  
-  
   .line {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     outline: 1px solid var(--line-heder-color); 
   }
-  
- 
-  
   
   .header-link.link {
     
@@ -450,9 +445,8 @@
     margin-left: 8px;
   }
 
-  
-
    /* buton in portfolio */
+
    .button.listt {
     
     display: block;
@@ -490,9 +484,6 @@
     overflow: hidden;
   }
   
-
-
-
 .list.galeri {
   display: flex;
   flex-wrap: wrap;
@@ -508,19 +499,19 @@
 }
 
 .galeri-cart.galeri-cart:nth-child(3n) {
-  margin-right: 0;
-  
+  margin-right: 0; 
 }
+
 .galeri-cart.galeri-cart:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
-
 
 .txt-gal {
   text-align: left;
   margin-top: 20px;
   margin-bottom: 4px;
 }
+
 .txt-pro {
   text-align: left;
   margin-bottom: 20px;
