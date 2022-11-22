@@ -27,6 +27,7 @@
   margin: 0px;
   
  }
+
  img {
   display: block;
  }
@@ -40,18 +41,13 @@
   padding-left: 0px;
   margin: 0px;
  }
+
   .contarner {
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
-  
-  
+ 
  }
-
- 
- 
- 
- 
 
   :root {
     --cart-fon-color:#EEEEEE;
@@ -105,6 +101,7 @@
     .header > .contarner {
      display: flex;
     }
+
     .header-nav {
       display: flex;
     }
@@ -112,7 +109,7 @@
   .line {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    
     outline: 1px solid var(--line-heder-color); 
   }
   
@@ -248,14 +245,15 @@
   /* main */  
 
   .sectio-main {
-    padding-top: 94px;
+    padding-top: 64px;
+    padding-bottom: 94px;
   }
   .sectio-main .cection.list {
     display: flex;
   }
-  .section .link {
+
+  .section .list {
     background-color: var(--hero-fon-color);
-    
   }
 
   .section-wrap:not(:last-child) {
@@ -277,6 +275,8 @@
   width: calc((100%-60px) / 3);
  }
 
+
+
  .cection-foto {
   padding-bottom: 94px;
   /* <!--наша команда--> */
@@ -284,6 +284,7 @@
 
  .team-list .list{
   text-align: center;
+  
  }
 .team-list {
   display: flex;
@@ -308,8 +309,8 @@
 }
 
   .team-title {
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-top: 94px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -318,8 +319,8 @@
   }
 
   .section-title {
-    padding-top: 94px;
-    padding-bottom: 50px;
+    
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -332,18 +333,23 @@
     font-size: 14px;
     line-height: 1.2;
     color: var(--titl-text-color);
+    text-align: left;
   }
- .pro-title {
+
+ .pri-title {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     color: var(--primary-text-color);
-
+     text-align: left;
  }
+
 /* team */
+
  .team {
     background-color: var(--tem-fon-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
   
   /* footer */
@@ -430,17 +436,21 @@
 
   .butn-main {
     background: var(--hero-fon-color);
-    
+    padding-top: 94px;
   }
   .butn-main> .cection {
     display: flex;
   }
   
+  
   .list.portfolio {
     display: flex;
     justify-content: center;
-    padding-top: 94px;
+    
   }
+ 
+  
+ 
   .list.portfolio .btn-list + .btn-list {
     margin-left: 8px;
   }
@@ -448,7 +458,7 @@
    /* buton in portfolio */
 
    .button.listt {
-    
+    padding: 6px 22px;
     display: block;
     border: none;
     font-family: inherit;
